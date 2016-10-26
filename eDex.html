@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>eDex</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="eDex.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="eDex.js"></script>
+  </head>
+  <body>
+    <!-- future features: pic file picker; site links (linked in, facebook, etc); rolling card file; 'mailTo' from card -->
+    <div id="wrapper">
+      <div id="header">
+        <h1>eDex</h1>
+      </div><!-- header end -->
+      <div id="leftSide">
+        <form id="form1" action="process.php" method="post">
+          <label>First Name:</label>
+          <input type="text" name="firstName">
+          <label>Last Name:</label>
+          <input type="text" name="lastName">
+          <label>Email:</label>
+          <input type="text" name="email">
+          <label>Contact#:</label>
+          <input type="text" name="contact">
+          <label>Description:</label>
+          <textarea name="description" rows="8" cols="40"></textarea>
+          <input type="submit" value="Add User">
+        </form>
+      </div><!-- leftSide end -->
+      <div id="cardBox">
+        <!-- <div class="card">
+          <h4>John Hamburg</h4>
+          <p>555.555.1234</p>
+          <p>jhamburg@stoplooking.com</p>
+        </div> -->
+      </div><!-- cardBox end -->
+    </div><!-- wrapper end -->
+  </body>
+</html>

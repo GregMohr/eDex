@@ -1,0 +1,71 @@
+#wrapper{
+  width: 970px;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+#header h1{
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+#leftSide{
+  background-color: lightblue;
+  width: 400px;
+  height: 380px;
+  display: inline-block;
+}
+form{
+  width: 326px;
+  /*display: block;*/
+  display: inline-block;
+  text-align: right;
+  background-color: lightblue;
+  margin: 0 0 0 10px;
+}
+form label{
+  display: block;
+  text-align: left;
+  padding: 5px 0 0 0;
+  font-size: 10pt;
+}
+textarea{
+  width: 325px;
+  padding: 0;
+}
+[type="text"]{
+  display: block;
+  width: 325px;
+  border-width: 1px;
+}
+[type="submit"]{
+  margin: 0 0 0 0;
+  width: 85px;
+  background: linear-gradient(white,dimgrey);
+  border: 1px solid grey;
+  border-radius: 7px;
+  color: black;
+}
+#cardBox{
+  display: inline-block;
+  width: 326px;
+  vertical-align: top;
+  margin-left: 238px;
+}
+.card{
+  border: 1px solid black;
+}
+.card h4{
+  padding: 0 0 0 5px;
+  margin: 0;
+}
+.card p{
+  padding: 0 0 0 5px;
+  font-size: 10pt;
+  margin: 3px 0 0 0;
+  display: inline;
+  border-left: 1px solid grey;
+}
+/*.card */
+.cardDesc{
+  display: none;
+}
